@@ -10,3 +10,8 @@ Para trabajar con el metodo GitFlow tendremos las siguientes ramas:
 - Develop: Esta rama es como un "puzzle" se iran subiendo Features acabadas o en versiones que son estables, cuando tenga suficientes caracteristicas para ser una version como por ejemplo "1.1" se pasara a release.
 
 - Feature: En esta rama trabajaremos una sola caracteristica del repositorio, la cual cuando este lista se subira a la rama Develop, para poder hacer todo el procedimiento de produccion y sacar una nueva Release.
+
+
+Ejemplo Grafico
+
+![GraphicExample](media/ejemplo%20grafico%20branches.svg)
