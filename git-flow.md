@@ -22,11 +22,12 @@ Ejemplo Grafico
 
 - Lo primero que debemos tener en cuenta es tener nuestra rama actual con un commit hecho de lo que queremos subir
 
-- Una vez hecho esto cojeremos la version mas actual de develop -> ```$ git pull origin develop```
-    - En caso que esto nos de error o diga que no es la misma version -> ```$ git rebase```
+- Lo primero que hay que hacer es un -> ```$ git rebase develop```
     - Ahora desde nuestro editor de codigo arreglaremos los errores entre versiones que nos salgan.
     - Añadiremos los cambios al branch pero **IMPORTANTE NO HACER UN COMMIT SOLO EL ADD** -> ```$ git add -A```
     - Finalmente seguiremos con el git rebase -> ```$ git rebase --continue```
+    - Si sigue dando error arreglaremos el error y volvemos a hacer el -> ```$ git add -A```
+    - Una vez hecho esto cojeremos la version mas actual de develop -> ```$ git pull origin develop``` y debe decir todo ok
 
 - Como llegados a este punto, o nuestro repositorio estaba al dia o no nos ha dado errores haremos los siguientes pasos
     - Cambiaremos a la rama develop -> ```$ git checkout develop```
