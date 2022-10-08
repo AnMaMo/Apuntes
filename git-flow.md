@@ -26,7 +26,7 @@ Ejemplo Grafico
     - Ahora desde nuestro editor de codigo arreglaremos los errores entre versiones que nos salgan.
     - Añadiremos los cambios al branch pero **IMPORTANTE NO HACER UN COMMIT SOLO EL ADD** -> ```$ git add -A```
     - Finalmente seguiremos con el git rebase -> ```$ git rebase --continue```
-    - Si sigue dando error arreglaremos el error y volvemos a hacer el -> ```$ git add -A```
+    - Si sigue dando error arreglaremos el error y volvemos a hacer el -> ```$ git add -A``` y de nuevo el ```$ git rebase --continue``` asi succesivamente hasta que no de errores.
     - Una vez hecho esto cojeremos la version mas actual de develop -> ```$ git pull origin develop``` y debe decir todo ok
 
 - Como llegados a este punto, o nuestro repositorio estaba al dia o no nos ha dado errores haremos los siguientes pasos
