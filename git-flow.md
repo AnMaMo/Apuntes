@@ -1,4 +1,4 @@
-# WORK to GitFlow
+# GitFlow
 
 Para trabajar con el metodo GitFlow tendremos las siguientes ramas:
 - Master: En esta rama estara una version estable de nuestro repositorio.
