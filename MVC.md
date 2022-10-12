@@ -1,6 +1,6 @@
 ### MVC
 
-El patrón de arquitectura de Modelo-Vista-Controlador (MVC) separa una aplicación en tres componentes principales: Modelo, vista y controlador. El patrón de MVC ayuda a crear aplicaciones que son más fáciles de actualizar y probar que las tradicionales aplicaciones monolíticas.
+El patrón de arquitectura de **Modelo-Vista-Controlador (MVC)** separa una aplicación en tres componentes principales: Modelo, vista y controlador. El patrón de MVC ayuda a crear aplicaciones que son más fáciles de actualizar y probar que las tradicionales aplicaciones monolíticas.
 
 Las aplicaciones basadas en MVC contienen:
 
@@ -12,3 +12,11 @@ Las aplicaciones basadas en MVC contienen:
     - Controlan las solicitudes del explorador.
     - Recuperan datos del modelo.
     - Llaman a plantillas de vista que devuelven una respuesta.
+
+
+
+### URL MVC
+DOMAIN/CONTROLER/ACTION/ID
+
+ACTION -> Llama a una view
+ID -> Puede ser necesaria en alguna Action, para mostrar una view o otra
