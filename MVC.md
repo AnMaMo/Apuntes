@@ -15,8 +15,8 @@ Las aplicaciones basadas en MVC contienen:
 
 
 
-### URL MVC
+### URL EN MVC
 DOMAIN/CONTROLER/ACTION/ID
 
-ACTION -> Llama a una view
+ACTION -> Segun los parametros introducidos llama a una view o a otra.
 ID -> Puede ser necesaria en alguna Action, para mostrar una view o otra
